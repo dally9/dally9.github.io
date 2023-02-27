@@ -3,6 +3,7 @@ layout: single
 title:  "Trading system"
 categories: Performance Measures
 tag: [SharpRatio, ForwardAnalysis, system, AverageP, trading, Overfitting, measures, performance]
+use_math: true
 toc: true
 toc_sticky: true
 toc_label: 목차
