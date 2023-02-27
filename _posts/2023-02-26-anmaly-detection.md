@@ -30,6 +30,7 @@ import numpy as np
 from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 ```
+<script src="https://gist.github.com/dally9/4e8b75696cbf3008099a4222c06b2515.js"></script>
 
 Next, we will load the sample data and create an IsolationForest object:
 
