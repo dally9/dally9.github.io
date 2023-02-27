@@ -3,8 +3,9 @@ layout: single
 title:  "Trading system"
 categories: Performance Measures
 tag: [SharpRatio, ForwardAnalysis, system, AverageP, trading, Overfitting, measures, performance]
-toc: false
-author_profile: false
+toc: true
+toc_sticky: true
+toc_label: 목차
 ---
 ## Maximum Drawdown (MDD)
 The Maximum Drawdown (MDD) is a measure of the largest peak-to-trough decline in a trading system. It is calculated as the difference between the highest peak and the lowest trough of the system. The formula for MDD is:
