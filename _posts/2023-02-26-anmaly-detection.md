@@ -23,38 +23,33 @@ These studies demonstrate the effectiveness of the IsolationForest technique in 
 
 ## Code
 
+### Sample data
+
 Let's take a look at an example code using the IsolationForest technique. We will use the sample data provided by scikit-learn. First, we will import the necessary libraries:
 
-```
-import numpy as np
-from sklearn.ensemble import IsolationForest
-import matplotlib.pyplot as plt
-```
+
 <script src="https://gist.github.com/dally9/4e8b75696cbf3008099a4222c06b2515.js"></script>
 
 Next, we will load the sample data and create an IsolationForest object:
 
-```
-rng = np.random.RandomState(42)
-X = rng.rand(10, 2)
-clf = IsolationForest(random_state=rng)
-```
+<script src="https://gist.github.com/dally9/8c9c158caa74dba544706fae4ae53e61.js"></script>
 
 We will then fit the model to the data and predict the labels:
 
-```
-clf.fit(X)
-labels = clf.predict(X)
-```
+<script src="https://gist.github.com/dally9/7e085c02dc69e279c0baa58a03631580.js"></script>
 
 Finally, we will visualize the results using a scatter plot:
 
-```
-plt.scatter(X[:, 0], X[:, 1], c=labels, s=20, cmap='viridis')
-plt.title('IsolationForest Results')
-plt.show()
-```
+<script src="https://gist.github.com/dally9/3ac49ea3c706fdbd09d77b59ec41cf70.js"></script>
 
 The above code will create a scatter plot with the data points labeled as either normal (green) or anomalous (red). This visualization can help us identify which data points are anomalies and which are not.
+
+### Boston Housing data
+
+Example using the california Housing dataset that comes with scikit-learn
+
+<script src="https://gist.github.com/dally9/0b5ab1bb64d6935141356bd2a0e9b9ce.js"></script>
+
+## Conclusion
 
 In conclusion, the IsolationForest technique is a powerful machine learning technique for anomaly detection. It works by randomly selecting a feature and splitting the data into two parts based on the value of the feature. Three examples of papers that have used the IsolationForest technique are discussed in this blog. Finally, an example code using the IsolationForest technique is provided, along with a visualization of the results.
