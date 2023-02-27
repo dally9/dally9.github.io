@@ -33,7 +33,7 @@ The Sharp Ratio is a measure of the risk-adjusted return of a trading system. It
 $$ Sharp Ratio = \frac{Average Return}{Standard Deviation} $$
 
 ## Profit and Loss (P&L)
-The Profit and Loss (P&L) is a measure of the total profit or loss of a trading system. It is calculated as the difference between the total profits and total losses of the system. The formula for P&L is:
+The Profit and Loss (P&L) is a measure of the total profit or loss of a trading system. It is calculated as the difference between the total profits and total losses of the system. The formula for (P&L) is:
 
 $$ P&L = Total Profits - Total Losses $$
 
