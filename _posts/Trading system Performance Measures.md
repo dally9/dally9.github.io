@@ -52,4 +52,4 @@ Overfitting is a measure of the ability of a trading system to generalize from p
 
 $$ Overfitting = Performance on Training Data - Performance on Test Data $$
 
-Using the Kakao stock data from 2022, we can calculate each of these performance measures. With the help of Python code, we can easily calculate the values of each indicator and use them to measure the performance of our trading system. #trading #system #performance #measures #MDD #MFE #MAE #SharpRatio #P&L #AverageP/L #ForwardAnalysis #Overfitting
+Next, we will use Kakao stock data for 2022 to calculate each of these performance indicators. With the help of Python code, you can easily calculate the value of each indicator and use it to measure the performance of your trading system. #trading #system #performance #measures #MDD #MFE #MAE #SharpRatio #P&L #AverageP/L #ForwardAnalysis #Overfitting
