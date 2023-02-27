@@ -37,7 +37,7 @@ $ Sharp Ratio = \frac{Average Return}{Standard Deviation} $
 ## Profit and Loss (P&L)
 The Profit and Loss (P&L) is a measure of the total profit or loss of a trading system. It is calculated as the difference between the total profits and total losses of the system. The formula for (P&L) is:
 
-$ P&L = Total Profits - Total Losses $
+$ Profit and Loss = Total Profits - Total Losses $
 
 ## Average Profit/Loss (P/L)
 The Average Profit/Loss (P/L) is a measure of the average profit or loss of a trading system. It is calculated as the average of the total profits and total losses of the system. The formula for Average P/L is:
