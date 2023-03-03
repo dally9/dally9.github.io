@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Chang won jun"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data scientist & AI research"
   location         : "Korea"
   email            :
